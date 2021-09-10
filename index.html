@@ -10,7 +10,7 @@
     <button onclick=play()>Hello Piano, Click me Please!</button>
     <script>
         function play(){
-            var x = Math.trunc(Math.random()*27);
+            var x = Math.trunc(Math.random()*26) + 1;
             var y = x + ".mp3";
             var audio = new Audio('y');
             audio.play();
