@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Piano</title>
 </head>
-<body>Hello Piano
+<body>Hello Piano, Click me Please!
     <script>
-        var x = 1;
-        var y = x + ".mp3";
         document.body.onclick=function(){
-            x = Math.trunc(Math.random()*27);
-        }
-        document.body.onload=function(){
+            var x = Math.trunc(Math.random()*27);
+            var y = x + ".mp3";
             var audio = new Audio('y');
             audio.play();
         }
