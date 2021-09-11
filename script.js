@@ -17,7 +17,7 @@ function command(x){
     body.style.backgroundColor = "#00D08C";
     sound.pause();
   }
-  setTimeout(x,Math.trunc(Math.random()*1000));
+  setTimeout(x,Math.trunc(Math.random()*3000));
 }
 function loop(){command(loop2);}
 function loop2(){command(loop);}
