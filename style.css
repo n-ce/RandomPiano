@@ -6,10 +6,10 @@ html{
   background-color: black;
 }
 body{
-  background-color: lightseagreen;
+  background-color:#00D08C;
   height:85vw;
   width:85vw;
-  border: 1rem solid #0008;
+  border: 1rem solid #00B77B;
   border-radius: 25%;
   background-image: url("Play.webp");
   background-size: 25vh;
