@@ -1,0 +1,26 @@
+html{
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+body{
+  background-color: mediumpurple;
+  height:85vw;
+  width:85vw;
+  box-shadow: 0 0 2rem mediumpurple;
+  border-radius: 25%;
+  background-image: url("Play.webp");
+  background-size: 25vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: boom 1s ease-in-out;
+}
+
+@media (orientation:landscape){
+  body{
+    height:75vh;
+    width:75vh;
+  }
+}
