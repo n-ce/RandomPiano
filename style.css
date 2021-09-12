@@ -4,8 +4,11 @@ html{
   justify-content: center;
   align-items: center;
   background-color: black;
+  color: #00B77B;
+  font-family: monospace;
 }
 body{
+  font-size: 1.5rem;
   background-color:#00D08C;
   height:85vw;
   width:85vw;
